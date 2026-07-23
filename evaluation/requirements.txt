@@ -1,0 +1,10 @@
+pandas
+scipy
+python-dotenv
+deepeval
+FlagEmbedding
+torch
+transformers
+accelerate
+pillow
+openpyxl

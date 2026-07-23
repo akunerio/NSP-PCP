@@ -1,0 +1,6 @@
+.env
+.deepeval/
+__pycache__/
+*.pyc
+input/
+output/

@@ -1,0 +1,58 @@
+/* Driver.js custom styles */
+.driver-popover {
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  padding: 20px !important;
+  z-index: 10001 !important;
+  width: auto !important; /* Dynamic width adjustment */
+  min-width: 320px !important; /* Minimum width */
+  max-width: 35vw !important; /* Max width at 35% of viewport */
+}
+
+/* Button container layout */
+.driver-popover-footer {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important; /* Prevent button wrapping */
+  gap: 12px !important; /* Spacing between buttons */
+  margin-top: 20px !important;
+}
+
+/* General button styles */
+.driver-popover-footer button {
+  min-width: 90px !important; /* Button minimum width */
+  height: 36px !important; /* Fixed button height */
+  padding: 0 16px !important; /* Horizontal padding */
+  margin: 0 !important;
+  border-radius: 5px !important;
+  font-size: 14px !important; /* Text size */
+  font-weight: 500 !important;
+  white-space: nowrap !important; /* Prevent text wrapping */
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  display: flex !important; /* Center content using flex */
+  align-items: center !important; /* Vertical centering */
+  justify-content: center !important; /* Horizontal centering */
+  border: none !important;
+}
+
+/* Button interaction states */
+.driver-popover-footer button:hover {
+  opacity: 0.9 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Remove user interaction restrictions during tour */
+.driver-active
+  *:not(.driver-highlighted):not(.driver-highlighted *):not(
+    .driver-popover
+  ):not(.driver-popover *) {
+  pointer-events: auto !important;
+}
+
+body.driver-active {
+  overflow: auto !important;
+}
