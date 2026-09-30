@@ -91,6 +91,22 @@ Results will be saved in `evaluation/output/`.
 
 ---
 
+## 📄 Cite
+Cite this study using BibTeX format
+```bibtex
+@article{Hwang25092026,
+        author = {Wu-Yuin Hwang and Rio Nurtantyana and Tsung-Wei Lin},
+        title = {Preliminary investigation of personalized next-sentence prediction for EFL writing with authentic context and personalized writing portfolio},
+        journal = {Interactive Learning Environments},
+        pages = {1--20},
+        year = {2026},
+        publisher = {Routledge},
+        doi = {10.1080/10494820.2026.2735914},
+        URL = {https://doi.org/10.1080/10494820.2026.2735914},
+        eprint = {https://doi.org/10.1080/10494820.2026.2735914}
+}
+```
+
 ## 📄 License
 
 This project is licensed under the **MIT License**. This license allows for reuse, modification, and distribution for academic purposes, provided that original authorship is credited.
